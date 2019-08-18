@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ToolbarDemo</string>
+    <string name="copy">Copy</string>
+    <string name="help">Help</string>
 </resources>
