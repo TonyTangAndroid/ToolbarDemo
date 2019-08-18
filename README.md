@@ -2,7 +2,7 @@ A tool demo that creates menu without going through Activity or Fragment callbac
 
 It is also good to help me to catch up what's going on in Android world.
 
-[![Build Status](https://build.appcenter.ms/v0.1/apps/9d5cefed-8b2e-45fe-abd0-1b2468a5a6be/branches/master/badge)](https://appcenter.ms/users/tonythompsoncmu/apps/ToolbarDemo)
+[![Build Status](https://build.appcenter.ms/v0.1/apps/9d5cefed-8b2e-45fe-abd0-1b2468a5a6be/branches/master/badge)](https://appcenter.ms/users/tonythompsoncmu/apps/ToolbarDemo/build/branches/master)
 
 
 
