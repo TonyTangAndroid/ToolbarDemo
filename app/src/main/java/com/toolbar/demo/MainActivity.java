@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,6 +39,12 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
         toolbar.setTitle(R.string.app_name);
         toolbar.inflateMenu(R.menu.main);
         toolbar.setOnMenuItemClickListener(this);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
     @Override
