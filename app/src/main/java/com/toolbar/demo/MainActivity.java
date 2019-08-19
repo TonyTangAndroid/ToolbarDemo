@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -33,10 +34,10 @@ public class MainActivity extends AppCompatActivity implements Toolbar.OnMenuIte
     }
 
     private void loadMenu() {
+        toolbar.setTitle(R.string.toolbar_demo);
         toolbar.getMenu()
                 .add(Menu.NONE, MENU_ITEM_ID_ACTION_ADD, Menu.NONE, "Add")
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-        toolbar.setTitle(R.string.app_name);
         toolbar.inflateMenu(R.menu.main);
         toolbar.setOnMenuItemClickListener(this);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {

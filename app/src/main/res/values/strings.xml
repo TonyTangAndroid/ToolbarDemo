@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">ToolbarDemo</string>
+    <string name="toolbar_demo_default">Toolbar default label</string>
+    <string name="toolbar_demo">Toolbar Demo</string>
     <string name="copy">Copy</string>
     <string name="help">Help</string>
 </resources>
